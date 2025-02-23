@@ -1,4 +1,12 @@
 
+final class A {
+
+}
+
+class B {
+
+}
+
 class Final {
 
     public static void main(String[] args) {
@@ -8,3 +16,7 @@ class Final {
 
     }
 }
+
+// if class is final cannot extends the this class as parent
+//method is final then stop overriding this method
+//varibale final then cannot change the value of that varibale once assining value
